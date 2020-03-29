@@ -9,7 +9,7 @@ Mostly done by following the famous book Functional programming in Scala.
 - [CoffeeMachineApp.scala](src/main/scala/chapter01/CoffeeMachineApp.scala) - 
 Classical "Coffee Machine" example.
 - [CoffeeMachineFPApp.scala](src/main/scala/chapter01toFP/CoffeeMachineFPApp.scala) - 
-Rewrite of CoffeeMachineApp with more FP concepts.
+Rewrite of [CoffeeMachineApp.scala](src/main/scala/chapter01/CoffeeMachineApp.scala) with more FP concepts.
 - [ExerciseInRTApp.scala](src/main/scala/chapter01toFP/ExerciseInRTApp.scala) - 
 Exercise in [referential transparency (RT)](https://en.wikipedia.org/wiki/Referential_transparency).
 
