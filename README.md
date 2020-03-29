@@ -31,4 +31,4 @@ Pattern matching exercise with custom `List` (`MList`).
 ## Resources
 ### Books
 
-- Functional Programming in Scala (Paul Chiusano and Runar Bjarnason)
+- [Functional Programming in Scala (Paul Chiusano and Runar Bjarnason)](https://www.manning.com/books/functional-programming-in-scala)
