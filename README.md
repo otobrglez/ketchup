@@ -27,6 +27,9 @@ Implementation of `curry`, `uncurry` and `compose`; exercises in [high-order fun
 Custom implementation of `List` (`MList`) with additional functions like `foreach` and `map`.
 - [PatternMatchingApp.scala [Exercise 3.1]](src/main/scala/chapter03/exercise3_1/PatternMatchingApp.scala) -
 Pattern matching exercise with custom `List` (`MList`).
+- [MoreDataStructuresApp.scala [Exercises: 3.2, 3.3, 3.4]](src/main/scala/chapter03/exercise3_2/MoreDataStructuresApp.scala) -
+Implementation of more pure functions and data structures. 
+Functions `tail`, `setHead`, `drop` and `dropWhile`.
 
 ## Resources
 ### Books
