@@ -1,6 +1,5 @@
 package chapter01toFP
 
-
 class CreditCard {
   def charge = ???
 }
