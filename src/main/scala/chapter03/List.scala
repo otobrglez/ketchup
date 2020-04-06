@@ -3,6 +3,7 @@ package chapter03
 case object Nil extends List[Nothing]
 
 case class Cons[+A](head: A, tail: List[A]) extends List[A]
+
 object List {
   def apply[A](as: A*): List[A] =
     if (as.isEmpty) Nil
@@ -44,6 +45,9 @@ object List {
     case Cons(x, tail) if f(x) => dropWhile(tail)(f)
     case _ => list
   }
+
+  def filter[A](list: List[A])(f: A => Boolean): List[A] =
+    foldRight(list, Nil: List[A])((x, tail) => if (f(x)) Cons(x, tail) else tail)
 
   def map[A, B](list: List[A])(f: A => B): List[B] = list match {
     case Cons(x, tail) => Cons(f(x), map(tail)(f))

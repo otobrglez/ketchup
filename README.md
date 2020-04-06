@@ -14,22 +14,22 @@ Rewrite of [CoffeeMachineApp.scala](src/main/scala/chapter01/CoffeeMachineApp.sc
 Exercise in [referential transparency (RT)](https://en.wikipedia.org/wiki/Referential_transparency).
 
 ### Chapter 2
-- [FibonacciApp.scala [Exercise 2.1]](src/main/scala/chapter02/exercise2_1/FibonacciApp.scala) - 
-Computing [N-th Fibonacci number](https://www.techiedelight.com/program-to-find-nth-fibonacci-number/) 
-with the recursion and [tail-recursion optimization](https://medium.com/@mattmichihara/scala-tail-call-optimization-f853b8f295dc). 
-- [FindersApp.scala [Exercise 2.2]](src/main/scala/chapter02/exercise2_2/FindersApp.scala) - 
+- [Factorial.scala](src/main/scala/chapter02/Factorial.scala)
+- [Fibonacci.scala](src/main/scala/chapter02/Fibonacci.scala) - 
+Computing [N-th Fibonacci number](https://www.techiedelight.com/program-to-find-nth-fibonacci-number/) with 
+the recursion and [tail-recursion optimization](https://medium.com/@mattmichihara/scala-tail-call-optimization-f853b8f295dc). 
+- [Finders.scala [Exercise 2.2]](src/main/scala/chapter02/Finder.scala) - 
 Implementation of `findFirst` and `isSorted` with recursion.
-- [HOFApp.scala [Exercises 2.3, 2.4 and 2.5]](src/main/scala/chapter02/exercise2_HOF/HOFApp.scala) - 
-Implementation of `curry`, `uncurry` and `compose`; exercises in [high-order functions](https://docs.scala-lang.org/tour/higher-order-functions.html) a.k.a HOFs.
+- [HOFApp.scala [Exercises 2.3, 2.4 and 2.5]](src/main/scala/chapter02/HOF.scala) - 
+Implementation of `curry`, `uncurry` and `compose`; exercises in 
+[high-order functions](https://docs.scala-lang.org/tour/higher-order-functions.html) a.k.a HOFs.
+- [ExerciseInRTApp.scala](src/main/scala/chapter01toFP/ExerciseInRTApp.scala) - An exercise in referential transparency
 
-### Chapter 3
-- [SampleApp.scala](src/main/scala/chapter03/datastructures/SampleApp.scala) - 
-Custom implementation of `List` (`MList`) with additional functions like `foreach` and `map`.
-- [PatternMatchingApp.scala [Exercise 3.1]](src/main/scala/chapter03/exercise3_1/PatternMatchingApp.scala) -
-Pattern matching exercise with custom `List` (`MList`).
-- [MoreDataStructuresApp.scala [Exercises: 3.2, 3.3, 3.4]](src/main/scala/chapter03/exercise3_2/MoreDataStructuresApp.scala) -
-Implementation of more pure functions and data structures. 
-Functions `tail`, `setHead`, `drop` and `dropWhile`.
+### Chapter 3 - Data structures
+[List.scala](src/main/scala/chapter03/List.scala) and [ListSpec.scala](src/test/scala/chapter03/ListSpec.scala) 
+hold all exercise for chapter 3. Implemented methods are 
+`init`, `setHead`, `apply`, `foreach`, `print`, `drop`, `dropWhile`, `filter`, 
+`map`, `foldRight`, `foldLeft`, `lenght`, `product`, `append`,...
 
 ## Resources
 ### Books

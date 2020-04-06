@@ -56,4 +56,8 @@ class ListSpec extends AnyFlatSpec with Matchers {
   it should "append" in {
     List.append(List(1, 2), List(3, 4)) shouldEqual List(1, 2, 3, 4)
   }
+
+  it should "filter" in {
+    List.filter(List(1, 2, 3, 4, 5))(_ % 2 == 0) shouldEqual List(2, 4)
+  }
 }
