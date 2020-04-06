@@ -60,4 +60,8 @@ class ListSpec extends AnyFlatSpec with Matchers {
   it should "filter" in {
     List.filter(List(1, 2, 3, 4, 5))(_ % 2 == 0) shouldEqual List(2, 4)
   }
+
+  it should "flatMap" in {
+    List.flatMap(List(1, 2, 3))(i => List(i, i)) shouldEqual List(1, 1, 2, 2, 3, 3)
+  }
 }

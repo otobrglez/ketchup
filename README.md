@@ -28,8 +28,9 @@ Implementation of `curry`, `uncurry` and `compose`; exercises in
 ### Chapter 3 - Data structures
 [List.scala](src/main/scala/chapter03/List.scala) and [ListSpec.scala](src/test/scala/chapter03/ListSpec.scala) 
 hold all exercise for chapter 3. Implemented methods are 
-`init`, `setHead`, `apply`, `foreach`, `print`, `drop`, `dropWhile`, `filter`, 
-`map`, `foldRight`, `foldLeft`, `lenght`, `product`, `append`,...
+`init`, `setHead`, `apply`, `append`, `foreach`, `print`, `drop`, `dropWhile`, 
+`filter`, `map`, `foldRight`, `foldLeft`, `lenght`, `product`, `concat`,  
+`append`, `flatMap`, ...
 
 ## Resources
 ### Books
